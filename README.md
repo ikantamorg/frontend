@@ -14,7 +14,7 @@ Created by [@IkantamCorp](https://twitter.com/IkantamCorp) front-end developers 
 ## Getting Started
 - HTTPS clone URL `https://github.com/ElmahdiMahmoud/frontend-template.git`.
 - SSH clone URL `git@github.com:ElmahdiMahmoud/frontend-template.git`.
-- You may also need to check the [TODO](https://github.com/ikantam/frontend/blob/master/TODO.md) list.
+- [TODO](https://github.com/ikantam/frontend/blob/master/TODO.md).
 
 ## License
 MIT License
