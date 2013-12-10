@@ -21,8 +21,7 @@ MIT License
 
 ### Features
 
-- Browser support 
--- Modern browsers, IE8+ 
+- Browser support: Modern browsers, IE8+ 
 - Valid HTML5
 - Favicon + iPhone favicon
 - Media queries (print and mobile)
