@@ -57,3 +57,7 @@ frontend/
 
 #### CSS
 * [Helper classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
+
+#### JS
+* [Plugins and their usage](https://github.com/ikantam/frontend/blob/master/doc/plugins.md)
+
