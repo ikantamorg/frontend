@@ -26,7 +26,7 @@ MIT License
 - Favicon + iPhone favicon
 - Media queries (print and mobile)
 - jQuery (CDN)
-- [Reusable classes](https://github.com/ikantam/frontend/master/doc/helper-classes.md)
+- [Reusable classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
 
 ---
 
