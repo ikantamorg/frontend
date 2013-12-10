@@ -34,7 +34,7 @@ MIT License
 ### Folder Structure
 
 ```
-frontend-template/
+frontend/
 ├── assets/
 ├──── css/
 │     ├── bootstrap.css
