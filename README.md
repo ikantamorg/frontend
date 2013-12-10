@@ -9,7 +9,7 @@ Created by [@IkantamCorp](https://twitter.com/IkantamCorp) front-end developers 
 ### Packed with: 
 * The lastest Bootstrap [v3.0.2](http://getbootstrap.com/) 
 * [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
-* [jQuery UI Touch Punch](http://touchpunch.furf.com/) *small hack that enables the use of touch events*
+* [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
 
 ## Getting Started
 - HTTPS clone URL `https://github.com/ElmahdiMahmoud/frontend-template.git`.
