@@ -14,7 +14,7 @@ Created by [@IkantamCorp](https://twitter.com/IkantamCorp) front-end developers 
 ## Getting Started
 - HTTPS clone URL `https://github.com/ElmahdiMahmoud/frontend-template.git`.
 - SSH clone URL `git@github.com:ElmahdiMahmoud/frontend-template.git`.
-- You may also need to check the [TODO](https://github.com/ElmahdiMahmoud/frontend-template/blob/master/TODO.md) list.
+- You may also need to check the [TODO](https://github.com/ikantam/frontend/blob/master/TODO.md) list.
 
 ## License
 MIT License
@@ -27,7 +27,7 @@ MIT License
 - Favicon + iPhone favicon
 - Media queries (print and mobile)
 - jQuery (CDN)
-- [Reusable classes](https://github.com/ElmahdiMahmoud/frontend-template/blob/master/doc/helper-classes.md)
+- [Reusable classes](https://github.com/ikantam/frontend/master/doc/helper-classes.md)
 
 ---
 
@@ -53,8 +53,8 @@ frontend/
 ## Snippets:
 
 #### HTML
-* [Bootstrap HTML Layout](https://github.com/ElmahdiMahmoud/frontend-template/blob/master/doc/bootstrap-html-layout.md)
-* [HTML5 forms input types](https://github.com/ElmahdiMahmoud/frontend-template/blob/master/doc/html5-forms-input-types.md)
+* [Bootstrap HTML Layout](https://github.com/ikantam/frontend/blob/master/doc/bootstrap-html-layout.md)
+* [HTML5 forms input types](https://github.com/ikantam/frontend/blob/master/doc/html5-forms-input-types.md)
 
 #### CSS
-* [Helper classes](https://github.com/ElmahdiMahmoud/frontend-template/blob/master/doc/helper-classes.md)
+* [Helper classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
