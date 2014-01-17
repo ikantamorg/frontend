@@ -1,0 +1,294 @@
+/* line 17, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/_partials.scss */
+.prof-avatar {
+  width: 152px;
+  height: 152px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* line 9, ../sass/_partials.scss */
+.small-avatar {
+  width: calc-subPixels(100px, 65px);
+  height: calc-subPixels(100px, 65px);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* line 10, ../sass/_partials.scss */
+.mid-avatar {
+  width: calc-subPixels(100px, 24px);
+  height: calc-subPixels(100px, 24px);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* line 11, ../sass/_partials.scss */
+.lrg-avatar {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* line 13, ../sass/_effects.scss */
+.spin:hover, a:hover .spin, li:hover .spin, button:hover .spin {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 7, ../sass/_icons.scss */
+.icons, [class^="icon-"],
+[class*="icon-"],
+[class^="icon--"],
+[class*="icon--"] {
+  display: inline-block;
+  margin-top: 1px;
+  margin-right: .3em;
+  line-height: 14px;
+  position: relative;
+  vertical-align: text-top;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+/* line 24, ../sass/_icons.scss */
+[class^="icon-"],
+[class*="icon-"] {
+  background-image: url("../media/images/sprite.png");
+}
+
+/* line 26, ../sass/_icons.scss */
+[class^="icon--"],
+[class*="icon--"] {
+  background-image: url("../media/images/sprite-lrg.png");
+}
+
+/* line 7, ../sass/_misc.scss */
+#browser-status {
+  background-color: #dc3228;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font: normal 16px/100% Arial, san-serif;
+  z-index: 9999;
+}
+/* line 18, ../sass/_misc.scss */
+#browser-status a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 31, ../sass/_misc.scss */
+.text-ul {
+  text-decoration: underline;
+}
+
+/* line 34, ../sass/_misc.scss */
+.txt-uc,
+.text-uc {
+  text-transform: uppercase;
+}
+
+/* line 38, ../sass/_misc.scss */
+.default-transition, .spin, a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 42, ../sass/_misc.scss */
+.padding-transition {
+  -webkit-transition: padding 0.1s ease;
+  -moz-transition: padding 0.1s ease;
+  -o-transition: padding 0.1s ease;
+  transition: padding 0.1s ease;
+}
+
+/* line 47, ../sass/_misc.scss */
+.default-boxshaodw {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 6px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 6px;
+}
+
+/* line 52, ../sass/_misc.scss */
+.transparent {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line 60, ../sass/_misc.scss */
+.opaque {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 61, ../sass/_misc.scss */
+.opacity-0 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+/* line 64, ../sass/_misc.scss */
+.cf, li {
+  zoom: 1;
+}
+/* line 66, ../sass/_misc.scss */
+.cf:before, li:before, .cf:after, li:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 72, ../sass/_misc.scss */
+.cf:after, li:after {
+  clear: both;
+}
+
+/* line 78, ../sass/_misc.scss */
+.clear {
+  visibility: hidden;
+  display: block !important;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 88, ../sass/_misc.scss */
+.pos-abs {
+  position: absolute !important;
+}
+
+/* line 89, ../sass/_misc.scss */
+.pos-rlv {
+  position: relative !important;
+}
+
+/* line 90, ../sass/_misc.scss */
+.pos-fxd {
+  position: fixed !important;
+}
+
+/* line 94, ../sass/_misc.scss */
+.ctr-block {
+  float: none !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* line 100, ../sass/_misc.scss */
+.fit-els {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+/* line 106, ../sass/_misc.scss */
+.fit-els > * {
+  display: table-cell;
+  text-align: center;
+  float: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}

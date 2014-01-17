@@ -1,0 +1,20 @@
+// =======================
+// ** Updated: 17.01.14 **
+
+@import "compass", 
+        "compass/reset",
+        "compass/css3",
+        "sections", 
+        "partials", 
+        "effects", 
+        "mixins", 
+        "icons",
+        "vars",
+        "type",
+        "misc";
+// =====================
+
+// Global
+a  { @extend .default-transition; }
+li { @extend .cf; }
+

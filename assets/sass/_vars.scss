@@ -1,0 +1,37 @@
+// ** Updated: 08.01.14 **
+
+// Getter
+
+// #numbers
+$hundredsPercent: 100%;
+$fiftyPercent: $hundredsPercent/2;
+$paddLeft: 57px;
+
+// #avatars
+$avatarProf: 152px;
+$avatarLrg: 100px;
+$avatarMid: calc-subPixels($avatarLrg, 24px);
+$avatarSm:  calc-subPixels($avatarLrg, 65px);
+
+// #duration
+$trnsDef: .50s;
+$trnsSlow: 1s;
+$trnsMid: 600ms;
+
+// #colors
+$blue  : #4d94ff;
+$green : #46b501;
+$lgreen: #9bb207;
+$olive : #99b001;
+$orange: #f9532f;
+$purple: #a767c7;
+$yellow: #f2b807;
+$lred  : #fb304d;
+
+
+// #view port
+$largeScreen: 1200px;
+$midDevices : 998px;
+$tablet 	: 768px;
+$landtoPort	: 480px;
+

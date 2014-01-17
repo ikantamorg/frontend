@@ -1,0 +1,16 @@
+// =======================
+// ** Updated: 17.01.14 **
+// Effect - Animations
+// =======================
+
+// #spin
+.spin {
+	@extend .default-transition;
+
+  &:hover, 
+  a:hover &,
+  li:hover &,
+  button:hover & {
+    @include rotate(180deg);
+  }
+}
