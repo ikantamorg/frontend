@@ -82,8 +82,8 @@ frontend/
 
 ---
 
-### Bug Tracker
+##### Bug Tracker
 
-### Changes and Updates
+##### Changes and Updates
 
-1. Version 2 upload Sass from local.
+* [Version 2 - upload Sass from local](ikantam/frontend@8b32b3604706c3821a83d1e88fb2ec0c5e2e7597) 
