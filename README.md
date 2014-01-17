@@ -86,4 +86,4 @@ frontend/
 
 ##### Changes and Updates
 
-* [Version 2 - upload Sass from local](ikantam/frontend@8b32b3604706c3821a83d1e88fb2ec0c5e2e7597) 
+* v2: 8b32b3604706c3821a83d1e88fb2ec0c5e2e7597
