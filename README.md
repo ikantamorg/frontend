@@ -85,4 +85,4 @@ frontend/
 
 ##### Changes and Updates
 
-> v2 [8b32b36](https://github.com/ikantam/frontend/commit/8b32b3604706c3821a83d1e88fb2ec0c5e2e7597">)
+> v2 [8b32b36](https://github.com/ikantam/frontend/commit/8b32b3604706c3821a83d1e88fb2ec0c5e2e7597)
