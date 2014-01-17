@@ -81,11 +81,8 @@ frontend/
 * [Plugins & usage](https://github.com/ikantam/frontend/blob/master/doc/plugins.md)
 
 ---
-
-##### Bug Tracker
+---
 
 ##### Changes and Updates
 
-* [link](commit/8b32b3604706c3821a83d1e88fb2ec0c5e2e7597)
-
-SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+> v2 [8b32b36](https://github.com/ikantam/frontend/commit/8b32b3604706c3821a83d1e88fb2ec0c5e2e7597">)
