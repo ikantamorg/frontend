@@ -86,5 +86,6 @@ frontend/
 
 ##### Changes and Updates
 
-SHA: 8b32b36
+SHA: 8b32b36047
+
 * [link](https://github.com/ikantam/frontend/commit/8b32b3604706c3821a83d1e88fb2ec0c5e2e7597)
