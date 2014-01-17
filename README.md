@@ -86,4 +86,4 @@ frontend/
 
 ##### Changes and Updates
 
-* v2: 8b32b3604706c3821a83d1e88fb2ec0c5e2e7597
+* SHA: 8b32b3604706c3821a83d1e88fb2ec0c5e2e7597
