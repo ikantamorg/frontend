@@ -273,7 +273,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 ```
 
-#### Placeholders ( @extends ) 
+##### Input Placeholder
+
+```scss
+input { @include input-placeholder { font-size: 12px; } }
+```
+Input Placeholder CSS Output
+
+```css
+input.placeholder       { font-size: 12px; }
+input:-moz-placeholder  { font-size: 12px; }
+input::-moz-placeholder { font-size: 12px; }
+input:-ms-input-placeholder { font-size: 12px; }
+input::-webkit-input-placeholder { font-size: 12px; }
+```
+
+#### Helpers ( @extends ) 
 
 > Parent should have fixed width!
 
