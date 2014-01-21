@@ -1,6 +1,14 @@
-// ** Updated: 17.01.14 **
+// ** Updated: 21.01.14 **
 // Mixins
 
+// Placeholder
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; } 
+}
 
 // Background Alpha
 @mixin bgAlpha($color, $alpha) {
@@ -136,3 +144,4 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
