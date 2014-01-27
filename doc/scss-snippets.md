@@ -1,7 +1,5 @@
 ### Scss Snippets
 
-#### Mixins Usage
-
 * [Transparent background](#transparent-background)
 * [Keyframes](#keyframes)
 * [Rounded block](#rounded-block)
@@ -12,6 +10,11 @@
   * [Division](#division)
   * [Percentage](#percentage)
 * [Breakpoints](#breakpoints)
+* [Absolute positioned](#absolute-positioned)
+* [Triangle](#triangle)
+* [Cross all headings, h1-h6](#cross-all-headings-h1-h6)
+* [Input Placeholder](#input-placeholder)
+* [Truncate-text](#truncate-text)
 
 ---
 
