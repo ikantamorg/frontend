@@ -1,4 +1,18 @@
 ### Scss Snippets
+
+#### Mixins Usage
+
+* [Transparent background](#transparent-background)
+* [Keyframes](#keyframes)
+* [Rounded block](#rounded-block)
+* [Calculation](#calculation)
+* [Calculation](#calculation)
+  * [Addition](#addition)
+  * [Subtraction](#subtraction)
+  * [Division](#division)
+  * [Percentage](#percentage)
+* [Breakpoints](#breakpoints)
+
 ---
 
 #### Mixins Usage
@@ -196,7 +210,7 @@ Breakpoints CSS Output
 
 ```scss
 //                         (top , right, btm, left)
-.pos-abs { @include abs-pos(10px, auto ,12px, 10px); }
+.pos-abs { @include pos-abs(10px, auto ,12px, 10px); }
 ```
 Absolute positioned CSS Output
 ```css
