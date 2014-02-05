@@ -48,3 +48,29 @@ You may need to check [Bootstrap grid system](http://getbootstrap.com/css/#grid-
   <!-- ======[ sidebar ]====== -->
 </div>
 ```
+
+
+### 3 columns Layout
+
+#### Left sidebar with center main columns and right sidebar
+```html
+<div class="layout sidebar-main-sidebar">
+  <!-- ======[ sidebar ]====== -->
+  <aside class="sidebar">
+    left column
+  </aside>
+  <!-- ======[ sidebar ]====== -->
+
+  <!-- ======[ main ]====== -->
+  <div class="main">
+    center column
+  </div>
+  <!-- ======[ main ]====== -->
+
+  <!-- ======[ sidebar ]====== -->
+  <aside class="sidebar">
+    right column
+  </aside>
+  <!-- ======[ sidebar ]====== -->
+</div>
+```
