@@ -32,8 +32,8 @@ MIT License
 - Browser support: Modern browsers, IE8+ 
 - Valid HTML5
 - jQuery, jQueryui (CDN)
-- [Sass snippets](https://github.com/ikantam/frontend/blob/master/doc/scss-snippets.md)
-- [Reusable classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
+- [Sass snippets](doc/scss-snippets.md)
+- [Reusable classes](doc/helper-classes.md)
 
 ---
 
@@ -43,27 +43,39 @@ MIT License
 frontend/
 ├── assets/
 ├──── css/
-│     ├── bootstrap.css
-│     └── main.css
-│     └── style.css
+│    └── bootstrap/
+│    └────── bootstrap.css
+│    └── vendors/
+│    └────── jqueryui.css
+│    ├── ikantam.css
+│    └── main.css
 ├──── js/
-│     ├── bootstrap-fileupload.min.js
-│     ├── bootstrap.min.js
-│     ├── ikantam.js
-│     └── jquery.ui.touch-punch.min.js
+│    ├── bootstrap-fileupload.min.js
+│    ├── bootstrap.min.js
+│    ├── ikantam.js
+│    └── jquery.ui.touch-punch.min.js
 ├──── media/
-│     ├── au
-│     ├── images
-│     └── swf
+│    └── au/
+│    └── images/
+│    └── swf/
 └──── sass/
-      ├── _effects.scss
-      ├── _icons.scss
-      ├── _misc.scss
-      ├── _mixins.scss
-      ├── _partials.scss
-      ├── _sections.scss
-      ├── _type.scss
-      ├── _vars.scss
+      └── bootstrap/
+      └────── *boostrap.scss
+      └── framework/
+      ├────── _all.scss
+      ├────── _helpers.scss
+      └────── _misc.scss
+      └── modules/
+      ├────── _all.scss
+      ├────── _buttons.scss
+      ├────── _icons.scss
+      └────── _utility.scss
+      └── partials/
+      ├────── _base.scss
+      ├────── _forms.scss
+      └────── _typography.scss
+      └── vendors/
+      └────── _jquery-ui.scss
       ├── main.scss
       └── config.rb
 ```
