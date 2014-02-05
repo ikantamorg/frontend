@@ -1,7 +1,7 @@
 ## Layout
 
-Layout used to handle the way of how to handle structure layout. Its doesn't contain any fixed `width` it's just organized by using `float`.
-You may need to check [Bootstrap grid system](http://getbootstrap.com/css/#grid-example-basic).
+Layout used to handle the block structure. There's no fixed `width` for this layout structure.
+You may need to check the [Bootstrap grid system](http://getbootstrap.com/css/#grid-example-basic).
 
 ### Single Layout
 ```html

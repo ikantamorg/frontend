@@ -83,8 +83,8 @@ frontend/
 ## Snippets:
 
 #### HTML
-* [Bootstrap HTML Layout](https://github.com/ikantam/frontend/blob/master/doc/layout.md)
-* [HTML5 forms input types](https://github.com/ikantam/frontend/blob/master/doc/html5-forms-input-types.md)
+* [Layout](doc/layout.md)
+* [Forms](doc/forms.md)
 
 #### CSS
 * [Helper classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
