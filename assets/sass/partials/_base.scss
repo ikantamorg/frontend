@@ -13,10 +13,8 @@ $avatarSml:  calc-subPixels($avatarLrg, 65px);
 // #view port
 $largeScreen: 1200px;
 $midDevices : 998px;
-$tablet 	: 768px;
+$tablet 	  : 768px;
 $landtoPort	: 480px;
-
-
 
 // ============[ Mixins ]============
 
@@ -111,7 +109,7 @@ $landtoPort	: 480px;
 }
 
 // #absolute positioned
-@mixin pos-abs ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+@mixin pos-abs ($top, $right, $bottom, $left: auto) {
   top: $top;
   right: $right;
   bottom: $bottom;

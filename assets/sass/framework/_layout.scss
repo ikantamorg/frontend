@@ -1,4 +1,4 @@
-// ** Updated: 05.02.14 **
+// ** Updated: 15.02.14 **
 
 .layout {
     &.main-sidebar {
@@ -17,5 +17,9 @@
             float: left; 
             & + .sidebar { float: left; }
         }
+    }
+    @include breakpoint(tablet) { 
+        .main,
+        .sidebar { float: none;  }
     }
 }
