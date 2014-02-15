@@ -15,8 +15,6 @@ Download from one of the following options:
 2. SSH clone URL  ──   `git@github.com:ikantam/frontend.git`.
 3. Download as .zip ── `https://github.com/ikantam/frontend/archive/master.zip`.
 
-## License
-MIT License
 
 ### Features
 
@@ -26,7 +24,7 @@ MIT License
 - [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
 - [jQuery](http://jquery.com/) via [CDN](http://code.jquery.com/jquery.min.js), with a local fallback.
 - [jQueryui](http://jqueryui.com/) via [CDN](http://code.jquery.com/ui/1.10.4/jquery-ui.min.js), with a local fallback.
-- [jQueryui Themes] *jqueryui.scss*
+- jQuery UI Themes *(jqueryui.scss)*
 - [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
 - Preprocessor (SCSS & Compass)
 - [Sass snippets](doc/scss-snippets.md)
