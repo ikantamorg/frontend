@@ -4,15 +4,15 @@ Front-end Template Starter v4
 This project is a fast and clean starting point for front-end development projects.
 
 ### Contributors:
-* [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud). 
-* [http://www.ikantam.com/](http://www.ikantam.com/).
+* [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
+* [http://www.ikantam.com/](http://www.ikantam.com/)
 
 
 ## Getting Started
 Download from one of the following options:
 
 1. HTTPS clone URL ──  `git clone https://github.com/ikantam/frontend.git`.
-2. SSH clone URL  ──  `git@github.com:ikantam/frontend.git`.
+2. SSH clone URL  ──   `git@github.com:ikantam/frontend.git`.
 3. Download as .zip ── `https://github.com/ikantam/frontend/archive/master.zip`.
 
 ## License
@@ -20,18 +20,19 @@ MIT License
 
 ### Features
 
+- Layout (Fixed, Responsive)
 - Cross-browser compatible (IE8+, Chrome, Opera, Safari, Firefox).
 - Compatible With [Bootstrap 3.1.1](http://getbootstrap.com/)
-- Layout (Fixed, Responsive)
+- [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
 - [jQuery](http://jquery.com/) via [CDN](http://code.jquery.com/jquery.min.js), with a local fallback.
 - [jQueryui](http://jqueryui.com/) via [CDN](http://code.jquery.com/ui/1.10.4/jquery-ui.min.js), with a local fallback.
-- IE-specific classes for easier cross-browser control.
-- [Sass snippets](doc/scss-snippets.md)
-- [Reusable classes](doc/helper-classes.md)
-- [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
+- [jQueryui Themes] *jqueryui.scss*
 - [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
 - Preprocessor (SCSS & Compass)
-- jqueryui.scss
+- [Sass snippets](doc/scss-snippets.md)
+- [Reusable classes](doc/helper-classes.md)
+- IE-specific classes for easier cross-browser control.
+
 ---
 
 
@@ -48,6 +49,9 @@ frontend/
 │    ├── ikantam.css
 │    └── main.css
 ├──── js/
+│    └── vendors/
+│    ├── jquery-ui.min.js
+│    └────── jquery.min.js
 │    ├── bootstrap-fileupload.min.js
 │    ├── bootstrap.min.js
 │    ├── ikantam.js
@@ -85,10 +89,10 @@ frontend/
 * [Forms](doc/forms.md)
 
 #### CSS
-* [CSS helpers](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
+* [CSS helpers](doc/helper-classes.md)
 
 #### Scss 
-* [Usage](https://github.com/ikantam/frontend/blob/master/doc/scss-snippets.md)
+* [Usage](doc/scss-snippets.md)
 
 #### JS
-* [Plugins & usage](https://github.com/ikantam/frontend/blob/master/doc/plugins.md)
+* [Plugins & usage](doc/plugins.md)
