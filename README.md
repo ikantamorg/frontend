@@ -23,8 +23,8 @@ MIT License
 - Cross-browser compatible (IE8+, Chrome, Opera, Safari, Firefox).
 - Compatible With [Bootstrap 3.1.1](http://getbootstrap.com/)
 - Layout (Fixed, Responsive)
-- [jQuery](http://jquery.com/) via [CDN](http://code.jquery.com/jquery.min.js), with a [local fallback](assets/js/vendors/jquery.min.js).
-- [jQueryui](http://jqueryui.com/) via [CDN](http://code.jquery.com/ui/1.10.4/jquery-ui.min.js), with a [local fallback](assets/js/vendors/jquery-ui.min.js).
+- [jQuery](http://jquery.com/) via [CDN](http://code.jquery.com/jquery.min.js), with a local fallback.
+- [jQueryui](http://jqueryui.com/) via [CDN](http://code.jquery.com/ui/1.10.4/jquery-ui.min.js), with a local fallback.
 - IE-specific classes for easier cross-browser control.
 - [Sass snippets](doc/scss-snippets.md)
 - [Reusable classes](doc/helper-classes.md)
@@ -32,7 +32,6 @@ MIT License
 - [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
 - Preprocessor (SCSS & Compass)
 - jqueryui.scss
-* [CSS helpers](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
 ---
 
 
