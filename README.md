@@ -93,5 +93,5 @@ frontend/
 
 ## Contributors
 
-[@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
-[http://www.ikantam.com/](http://www.ikantam.com/)
+- [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
+- [http://www.ikantam.com/](http://www.ikantam.com/)
