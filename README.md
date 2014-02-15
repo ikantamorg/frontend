@@ -3,11 +3,6 @@ Front-end Template Starter v4
 
 This project is a fast and clean starting point for front-end development projects.
 
-### Contributors:
-* [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
-* [http://www.ikantam.com/](http://www.ikantam.com/)
-
-
 ## Getting Started
 Download from one of the following options:
 
@@ -16,7 +11,7 @@ Download from one of the following options:
 3. Download as .zip ── `https://github.com/ikantam/frontend/archive/master.zip`.
 
 
-### Features
+## Features
 
 - Layout (Fixed, Responsive)
 - Cross-browser compatible (IE8+, Chrome, Opera, Safari, Firefox).
@@ -34,7 +29,7 @@ Download from one of the following options:
 ---
 
 
-### Structure
+## Structure
 
 ```
 frontend/
@@ -82,15 +77,21 @@ frontend/
 
 ## Usage:
 
-#### HTML Shortcodes
+### HTML Shortcodes
 * [Layout](doc/layout.md)
 * [Forms](doc/forms.md)
 
-#### CSS
+### CSS
 * [CSS helpers](doc/helper-classes.md)
 
-#### Scss 
+### Scss 
 * [Usage](doc/scss-snippets.md)
 
-#### JS
+### JS
 * [Plugins & usage](doc/plugins.md)
+
+
+## Contributors
+
+[@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud)
+[http://www.ikantam.com/](http://www.ikantam.com/)
