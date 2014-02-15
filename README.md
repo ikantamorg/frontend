@@ -1,43 +1,42 @@
-Frontend template starter v3.
+Front-end Template Starter v4
 ---
-Fast and clean starting point for front-end development projects.
 
-Created by [@IkantamCorp](https://twitter.com/IkantamCorp) front-end developers team: 
+This project is a fast and clean starting point for front-end development projects.
+
+### Contributors:
 * [@ElmahdiMahmoud](https://twitter.com/ElmahdiMahmoud). 
+* [http://www.ikantam.com/](http://www.ikantam.com/).
 
----
-
-### Packed with: 
-* Bootstrap [sass-3.1.0](https://github.com/twbs/bootstrap-sass)
-* [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
-* [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
-* Preprocessor: Scss & Compass
-* jqueryui.scss
 
 ## Getting Started
+Download from one of the following options:
 
-### Download
-
-- HTTPS clone URL  `git clone https://github.com/ikantam/frontend.git`.
-- SSH clone URL    `git@github.com:ikantam/frontend.git`.
-- Download as .zip `https://github.com/ikantam/frontend/archive/master.zip`.
-
-> Check [TODO](TODO.md) before you start.
+1. HTTPS clone URL ──  `git clone https://github.com/ikantam/frontend.git`.
+2. SSH clone URL  ──  `git@github.com:ikantam/frontend.git`.
+3. Download as .zip ── `https://github.com/ikantam/frontend/archive/master.zip`.
 
 ## License
 MIT License
 
 ### Features
 
-- Browser support: Modern browsers, IE8+ 
-- Valid HTML5
-- jQuery, jQueryui (CDN)
+- Cross-browser compatible (IE8+, Chrome, Opera, Safari, Firefox).
+- Compatible With [Bootstrap 3.1.1](http://getbootstrap.com/)
+- Layout (Fixed, Responsive)
+- [jQuery](http://jquery.com/) via [CDN](http://code.jquery.com/jquery.min.js), with a [local fallback](assets/js/vendors/jquery.min.js).
+- [jQueryui](http://jqueryui.com/) via [CDN](http://code.jquery.com/ui/1.10.4/jquery-ui.min.js), with a [local fallback](assets/js/vendors/jquery-ui.min.js).
+- IE-specific classes for easier cross-browser control.
 - [Sass snippets](doc/scss-snippets.md)
 - [Reusable classes](doc/helper-classes.md)
-
+- [bootstrap-fileupload.min.js](http://jasny.github.io/bootstrap/javascript/#fileinput)
+- [jQuery UI Touch Punch](http://touchpunch.furf.com/) *(small hack that enables the use of touch events)*
+- Preprocessor (SCSS & Compass)
+- jqueryui.scss
+* [CSS helpers](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
 ---
 
-### Folder Structure
+
+### Structure
 
 ```
 frontend/
@@ -80,20 +79,17 @@ frontend/
       └── config.rb
 ```
 
-## Snippets:
+## Usage:
 
-#### HTML
+#### HTML Shortcodes
 * [Layout](doc/layout.md)
 * [Forms](doc/forms.md)
 
 #### CSS
-* [Helper classes](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
+* [CSS helpers](https://github.com/ikantam/frontend/blob/master/doc/helper-classes.md)
 
-#### Scss
-* [Snippets](https://github.com/ikantam/frontend/blob/master/doc/scss-snippets.md)
+#### Scss 
+* [Usage](https://github.com/ikantam/frontend/blob/master/doc/scss-snippets.md)
 
 #### JS
 * [Plugins & usage](https://github.com/ikantam/frontend/blob/master/doc/plugins.md)
-
----
----
